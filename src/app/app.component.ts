@@ -11,7 +11,7 @@ import { TokenStorageService } from './services/token-storage.service';
   template: '<router-outlet></router-outlet>',
 })
 export class AppComponent implements OnInit {
-  title = 'Amour Angle Admin';
+  title = 'AmourAngle Admin';
 
   constructor(
     private router: Router,
