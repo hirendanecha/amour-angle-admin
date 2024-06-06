@@ -6,7 +6,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "amour-angle-admin": {
+    "amour-angels-admin": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -23,7 +23,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/amour-angle-admin",
+            "outputPath": "dist/amour-angels-admin",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -153,13 +153,13 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "amour-angle-admin:build:production"
+              "browserTarget": "amour-angels-admin:build:production"
             },
             "development": {
-              "browserTarget": "amour-angle-admin:build:development"
+              "browserTarget": "amour-angels-admin:build:development"
             },
             "test": {
-              "browserTarget": "amour-angle-admin:build:test"
+              "browserTarget": "amour-angels-admin:build:test"
             }
           },
           "defaultConfiguration": "production"
@@ -167,7 +167,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "amour-angle-admin:build"
+            "browserTarget": "amour-angels-admin:build"
           }
         },
         "test": {
