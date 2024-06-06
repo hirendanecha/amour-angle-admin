@@ -4,7 +4,7 @@ import { CommunityPostService } from '../../../services/community-post.service';
 import { CommunityService } from '../../../services/community.service';
 import { PostService } from '../../../services/post.service';
 import { UserService } from '../../../services/user.service';
-import { NgxSpinnerService } from 'ngx-spinner/lib/ngx-spinner.service';
+import { NgxSpinnerService } from 'ngx-spinner';
 @Component({
   selector: 'app-edit-post',
   templateUrl: './edit-post.component.html',
